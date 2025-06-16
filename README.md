@@ -14,7 +14,7 @@ TikTok,
 Facebook,
 Twitter,
 And so many more, that can be found in the link below:
-[Supported Sites](https://sourceforge.net/p/umd/code/ci/master/tree/supportedsites.md)
+[Supported Sites](https://github.com/Justagwas/UMD/blob/master/UMD/supportedsites.md)
 
 This project is a refined and improved fork of the original [Media-Downloader](https://github.com/Justagwas/Media-Downloader).
 
