@@ -210,9 +210,7 @@ Check out my [FAQ Page](https://www.justagwas.com/faq) for more answers and deta
 - [x] During Download Settings Icon Disabled.
 - [x] Application Already Running Check.
 - [x] Packaged for PR.
-- [ ] Released.
-
-CURRENTLY ONLY AVAILABLE IN SOURCEFORGE - https://sourceforge.net/projects/umd/files/latest/download
+- [x] Released.
 
 ---
 
