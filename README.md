@@ -1,4 +1,4 @@
-# Universal Media Downloader v1.2.2
+# Universal Media Downloader v1.2.3
 
 [![Download Universal_Media_Downloader_Setup.exe](https://img.shields.io/badge/▼%20Download_▼-Universal_Media_Downloader_Setup.exe-blue?style=for-the-badge)](https://github.com/Justagwas/UMD/leases/latest/download/Universal_Media_Downloader_Setup.exe)
 
@@ -86,7 +86,7 @@ Using the installer is essential as it automatically adds the application to the
 1. **Download**  
    Clone or download the repository as a ZIP file from the latest release:
    
-   [![Download Latest Release UMD.zip](https://img.shields.io/badge/▼%20Download_Latest_Release%20▼-Source_Code.zip%20-blue?style=for-the-badge)](https://github.com/Justagwas/UMD/archive/refs/tags/v1.2.2.zip)
+   [![Download Latest Release UMD.zip](https://img.shields.io/badge/▼%20Download_Latest_Release%20▼-Source_Code.zip%20-blue?style=for-the-badge)](https://github.com/Justagwas/UMD/archive/refs/tags/v1.2.3.zip)
 
 3. **Install Dependencies**  
    Ensure Python is installed on your system. Then, install the required libraries using the following command:
@@ -192,7 +192,7 @@ Don’t worry! Windows and other operating systems sometimes flag my software si
 You're welcome to verify it at [Virus Total](https://www.virustotal.com/gui/home/upload), or anywhere you'd like.
 
 ### 🛠 **What You Can Do:**  
-1. Double-check if your download is from the [official repository](https://github.com/Justagwas/UMD), or the [official Sourceforge](https://sourceforge.net/projects/umd/).
+1. Double-check if your download is from the [official repository](https://github.com/Justagwas/UMD), or the [official Sourceforge](https://sourceforge.net/projects/umd).
 2. If Windows shows a warning, click **More Info** > **Run Anyway** to bypass it.  
 3. Refer to the ⚠️ [Warnings](#%EF%B8%8F-warnings) section in this repository for any potential risks. If none are listed, there’s nothing to worry about.  
 
@@ -205,11 +205,10 @@ Check out my [FAQ Page](https://www.justagwas.com/faq) for more answers and deta
 
 ## 🚧 TODO List
 
-### Version 1.2.2
+### Version 1.2.3
 
-- [x] Added Settings.
-- [x] New Setting: Remove Quality/Format Warnings.
-- [x] Option to keep Config Post Deletion.
+- [x] During Download Settings Icon Disabled.
+- [x] Application Already Running Check.
 - [x] Packaged for PR.
 - [x] Released.
 
