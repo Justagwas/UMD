@@ -13,6 +13,7 @@ import logging
 import requests
 import shutil
 import zipfile
+import platform
 import subprocess
 from urllib.parse import urlparse
 import ctypes as ct
@@ -24,11 +25,11 @@ import json
 
 logging.basicConfig(level=logging.INFO, format="%(asctime)s - %(levelname)s - %(message)s")
 
-import win32event, win32api, winerror
-
-mutex = win32event.CreateMutex(None, False, "MediaDownloaderMutex")
-if win32api.GetLastError() == winerror.ERROR_ALREADY_EXISTS:
-    sys.exit()
+if platform.system() == "Windows":
+    import win32event, win32api, winerror
+    mutex = win32event.CreateMutex(None, False, "MediaDownloaderMutex")
+    if win32api.GetLastError() == winerror.ERROR_ALREADY_EXISTS:
+        sys.exit("Application is already running.")
 
 class MediaDownloader:
     def load_config(self):
@@ -66,6 +67,9 @@ class MediaDownloader:
         for btn in self.quality_buttons.values():
             btn.config(state=state)
         self.download_button.config(state=state)
+        if hasattr(self, 'gear_btn'):
+            self.gear_btn.config(state=state)
+
     def add_hover_effect(self, btn, *, is_selected_func=None, is_enabled_func=None, bg_normal="#232526", fg_normal="#e6e6e6", bg_hover="#31363b", fg_hover="#80cfff", bg_selected="#0078d4", fg_selected="#fff", bg_disabled="#232526", fg_disabled="#888888", is_hover_enabled_func=None):
         def on_enter(e):
             if is_hover_enabled_func and not is_hover_enabled_func():
@@ -89,7 +93,7 @@ class MediaDownloader:
         self.load_config()
         self.root = root
         self.center_window(480, 380)
-        self.root.title("Universal Media Downloader") #Version 1.2.2
+        self.root.title("Universal Media Downloader") #Version 1.2.3
         self.root.geometry("480x400")
         self.root.configure(bg="#181a1b")
         self.root.resizable(False, False)
@@ -664,13 +668,21 @@ class MediaDownloader:
         self.console.grid(row=5, column=0, columnspan=2, sticky="nsew", pady=(0, 0))
         bottom_bar = tk.Frame(self.root, bg="#181a1b")
         bottom_bar.pack(side="bottom", fill="x")
-        gear_btn = tk.Button(bottom_bar, text="\u2699", font=("Segoe UI Symbol", 14),bg="#181a1b", fg="#e6e6e6", activebackground="#31363b", activeforeground="#80cfff",relief="flat", bd=0, padx=6, pady=2, width=3, command=self.show_settings)
-        gear_btn.pack(side="left", anchor="sw", padx=8, pady=4)
-        self.add_hover_effect(gear_btn, bg_normal="#181a1b", fg_normal="#e6e6e6", bg_hover="#31363b", fg_hover="#80cfff")
+        self.gear_btn = tk.Button(bottom_bar, text="\u2699", font=("Segoe UI Symbol", 14),bg="#181a1b", fg="#e6e6e6", activebackground="#31363b", activeforeground="#80cfff",relief="flat", bd=0, padx=6, pady=2, width=3, command=self.show_settings)
+        self.gear_btn.pack(side="left", anchor="sw", padx=8, pady=4)
+        self.add_hover_effect(
+            self.gear_btn,
+            bg_normal="#181a1b", fg_normal="#e6e6e6", bg_hover="#31363b", fg_hover="#80cfff",
+            is_hover_enabled_func=lambda: not self.downloading
+        )
+        if self.downloading:
+            self.gear_btn.config(state=tk.DISABLED)
+        else:
+            self.gear_btn.config(state=tk.NORMAL)
         official_link = tk.Label(bottom_bar, text="Official page", font=("Segoe UI", 10, "underline"), fg="#aaa", bg="#181a1b", cursor="hand2")
         official_link.pack(side="right", anchor="se", padx=(0, 12), pady=4)
         official_link.bind("<Button-1>", lambda e: os.startfile("https://justagwas.com/projects/UMD"))
-        version_label = tk.Label(bottom_bar, text="v1.2.2", font=("Segoe UI", 10), fg="#888", bg="#181a1b")
+        version_label = tk.Label(bottom_bar, text="v1.2.3", font=("Segoe UI", 10), fg="#888", bg="#181a1b")
         version_label.pack(side="right", anchor="se", padx=(0, 2), pady=4)
 
     def update_format_buttons(self):
@@ -994,7 +1006,7 @@ class MediaDownloader:
     def check_for_updates(self):#UPDATE CHECK
         def update_check():
             try:
-                current_version = "v1.2.2"
+                current_version = "v1.2.3"
                 rss_url = "https://sourceforge.net/projects/umd/rss?path=/"
                 response = requests.get(rss_url, timeout=10)
                 if response.status_code == 200:
@@ -1154,6 +1166,8 @@ class MediaDownloader:
                 self.progress["value"] = 0
 
     def show_settings(self):
+        if self.downloading:
+            return
         if self.main_frame:
             self.main_frame.destroy()
         for widget in self.root.winfo_children():
@@ -1202,7 +1216,7 @@ class MediaDownloader:
         official_link = tk.Label(bottom_bar, text="Official page", font=("Segoe UI", 10, "underline"), fg="#aaa", bg="#181a1b", cursor="hand2")
         official_link.pack(side="right", anchor="se", padx=(0, 12), pady=4)
         official_link.bind("<Button-1>", lambda e: os.startfile("https://justagwas.com/projects/UMD"))
-        version_label = tk.Label(bottom_bar, text="v1.2.2", font=("Segoe UI", 10), fg="#888", bg="#181a1b")
+        version_label = tk.Label(bottom_bar, text="v1.2.3", font=("Segoe UI", 10), fg="#888", bg="#181a1b")
         version_label.pack(side="right", anchor="se", padx=(0, 2), pady=4)
 
 if __name__ == "__main__":
