@@ -1,6 +1,6 @@
 # Universal Media Downloader v1.2.3
 
-[![Download Universal_Media_Downloader_Setup.exe](https://img.shields.io/badge/▼%20Download_▼-Universal_Media_Downloader_Setup.exe-blue?style=for-the-badge)](https://github.com/Justagwas/UMD/leases/latest/download/Universal_Media_Downloader_Setup.exe)
+[![Download Universal_Media_Downloader_Setup.exe](https://img.shields.io/badge/▼%20Download_▼-Universal_Media_Downloader_Setup.exe-blue?style=for-the-badge)](https://github.com/Justagwas/UMD/releases/latest/download/Universal_Media_Downloader_Setup.exe)
 
 Universal Media Downloader (UMD) is a lightweight Python application designed to download media from a variety of popular websites.
 Download 4K Video, Audio from 1,000+ Websites with just a few clicks.
