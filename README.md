@@ -212,6 +212,13 @@ Check out my [FAQ Page](https://www.justagwas.com/faq) for more answers and deta
 - [x] Packaged for PR.
 - [x] Released.
 
+### Version 1.3.0
+
+- [x] Batch Download Mode.
+- [ ] Custom Download Path.
+- [ ] Packaged for PR.
+- [ ] Released.
+
 ---
 
 ## 📜 License
