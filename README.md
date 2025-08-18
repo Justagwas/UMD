@@ -215,7 +215,8 @@ Check out my [FAQ Page](https://www.justagwas.com/faq) for more answers and deta
 ### Version 1.3.0
 
 - [x] Batch Download Mode.
-- [ ] Custom Download Path.
+- [x] Custom Download Path.
+- [x] Existing File Check Toggle.
 - [ ] Packaged for PR.
 - [ ] Released.
 
