@@ -364,3 +364,4 @@ FodyWeavers.xsd
 UMD/version.txt
 /UMD/dist
 /UMD/build
+UMD/umd_config.json
