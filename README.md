@@ -1,4 +1,4 @@
-# Universal Media Downloader v1.2.3
+# Universal Media Downloader v1.3.0
 
 [![Download Universal_Media_Downloader_Setup.exe](https://img.shields.io/badge/▼%20Download_▼-Universal_Media_Downloader_Setup.exe-blue?style=for-the-badge)](https://github.com/Justagwas/UMD/releases/latest/download/Universal_Media_Downloader_Setup.exe)
 
@@ -86,7 +86,7 @@ Using the installer is essential as it automatically adds the application to the
 1. **Download**  
    Clone or download the repository as a ZIP file from the latest release:
    
-   [![Download Latest Release UMD.zip](https://img.shields.io/badge/▼%20Download_Latest_Release%20▼-Source_Code.zip%20-blue?style=for-the-badge)](https://github.com/Justagwas/UMD/archive/refs/tags/v1.2.3.zip)
+   [![Download Latest Release UMD.zip](https://img.shields.io/badge/▼%20Download_Latest_Release%20▼-Source_Code.zip%20-blue?style=for-the-badge)](https://github.com/Justagwas/UMD/archive/refs/tags/v1.3.0.zip)
 
 3. **Install Dependencies**  
    Ensure Python is installed on your system. Then, install the required libraries using the following command:
@@ -217,8 +217,8 @@ Check out my [FAQ Page](https://www.justagwas.com/faq) for more answers and deta
 - [x] Batch Download Mode.
 - [x] Custom Download Path.
 - [x] Existing File Check Toggle.
-- [ ] Packaged for PR.
-- [ ] Released.
+- [x] Packaged for PR.
+- [x] Released.
 
 ---
 
