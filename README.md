@@ -205,13 +205,6 @@ Check out my [FAQ Page](https://www.justagwas.com/faq) for more answers and deta
 
 ## 🚧 TODO List
 
-### Version 1.2.3
-
-- [x] During Download Settings Icon Disabled.
-- [x] Application Already Running Check.
-- [x] Packaged for PR.
-- [x] Released.
-
 ### Version 1.3.0
 
 - [x] Batch Download Mode.
