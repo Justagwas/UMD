@@ -1,22 +1,27 @@
-# Universal Media Downloader v1.3.0
+<h1 align="center">Universal Media Downloader v1.3.0</h1>
 
-[![Download Universal_Media_Downloader_Setup.exe](https://img.shields.io/badge/▼%20Download_▼-Universal_Media_Downloader_Setup.exe-blue?style=for-the-badge)](https://github.com/Justagwas/UMD/releases/latest/download/Universal_Media_Downloader_Setup.exe)
+<p align="center">
+  <b>Download video and audio from 1,000+ sites.</b>
+</p>
 
-Universal Media Downloader (UMD) is a lightweight Python application designed to download media from a variety of popular websites.
-Download 4K Video, Audio from 1,000+ Websites with just a few clicks.
+<p align="center">
+  <a href="https://github.com/Justagwas/UMD/releases/latest/download/Universal_Media_Downloader_Setup.exe">
+    <img src="https://img.shields.io/badge/▶_DOWNLOAD_FROM_GITHUB_◀-2ea043?style=for-the-badge&logo=github&logoColor=white&labelColor=181717" alt="Download from GitHub">
+  </a>
+  <a href="https://sourceforge.net/projects/umd/files/v1.3.0/Universal_Media_Downloader_Setup.exe/download">
+    <img src="https://img.shields.io/badge/▶_DOWNLOAD_FROM_SOURCEFORGE_◀-fb7a24?style=for-the-badge&logo=sourceforge&logoColor=white&labelColor=333333" alt="Download from SourceForge">
+  </a>
+</p>
 
-By providing a URL, you can download videos or audio in common formats like MP3 and MP4, allowing quick and straightforward saving of media from supported platforms.
 
-UMD supports sites including:
-YouTube,
-Instagram,
-TikTok,
-Facebook,
-Twitter,
-And so many more, that can be found in the link below:
-[Supported Sites](https://github.com/Justagwas/UMD/blob/master/UMD/supportedsites.md)
+---
 
-This project is a refined and improved fork of the original [Media-Downloader](https://github.com/Justagwas/Media-Downloader).
+**Universal Media Downloader (UMD)** is a lightweight Python application for downloading 4K video and audio from over 1,000 websites.
+
+Provide a URL, select your format (MP3 / MP4), and download instantly! Supports platforms like YouTube, Instagram, TikTok, Facebook, Twitter, and many more.
+
+📃 [List of supported sites ](https://github.com/Justagwas/UMD/blob/master/UMD/supportedsites.md)  
+🔗 This project is a refined and improved fork of the original [Media-Downloader](https://github.com/Justagwas/Media-Downloader).
 
 ## Table of Contents
 
