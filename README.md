@@ -4,6 +4,8 @@
   <b>Download video and audio from 1,000+ sites.</b>
 </p>
 
+<h3 align="center">▼ Download the Installer ▼</h2>
+
 <p align="center">
   <a href="https://github.com/Justagwas/UMD/releases/latest/download/Universal_Media_Downloader_Setup.exe">
     <img src="https://img.shields.io/badge/▶_DOWNLOAD_FROM_GITHUB_◀-2ea043?style=for-the-badge&logo=github&logoColor=white&labelColor=181717" alt="Download from GitHub">
