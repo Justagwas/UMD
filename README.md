@@ -37,7 +37,7 @@ Provide a URL, select your format (MP3 / MP4), and download instantly! Supports 
 ## Table of Contents
 
 - 📋 [Features](#-features)
-- 🧩 [Installation & Usage)](#-how-to-use)
+- 🧩 [Installation & Usage](#-how-to-use)
 - 📦 [Packaging Instructions](#-packaging-instructions)
 - ⚠️ [Warnings](#%EF%B8%8F-warnings)
 - 📷 [Preview](#-preview)
