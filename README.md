@@ -1,20 +1,29 @@
-<h1 align="center">Universal Media Downloader v1.3.0</h1>
-
 <p align="center">
-  <b>Download video and audio from 1,000+ sites.</b>
+  <img src="https://raw.githubusercontent.com/Justagwas/UMD/refs/heads/master/UMD/icon.ico" width="128" alt="UMD Logo" />
 </p>
 
-<h3 align="center">▼ Download the Installer ▼</h2>
+<h1 align="center">Universal Media Downloader</h1>
+
+<p align="center">
+  <b>Fast. Simple. Reliable.</b><br>
+  Download video and audio from over <b>1,000+ websites</b> with one click.
+</p>
 
 <p align="center">
   <a href="https://github.com/Justagwas/UMD/releases/latest/download/Universal_Media_Downloader_Setup.exe">
-    <img src="https://img.shields.io/badge/▶_DOWNLOAD_FROM_GITHUB_◀-2ea043?style=for-the-badge&logo=github&logoColor=white&labelColor=181717" alt="Download from GitHub">
+    <img src="https://img.shields.io/badge/Download%20for%20Windows-2ea043?style=for-the-badge&logo=windows&logoColor=white" alt="Download for Windows">
   </a>
-  <a href="https://sourceforge.net/projects/umd/files/v1.3.0/Universal_Media_Downloader_Setup.exe/download">
-    <img src="https://img.shields.io/badge/▶_DOWNLOAD_FROM_SOURCEFORGE_◀-fb7a24?style=for-the-badge&logo=sourceforge&logoColor=white&labelColor=333333" alt="Download from SourceForge">
+  <a href="https://sourceforge.net/projects/umd/files/latest/download">
+    <img src="https://img.shields.io/badge/Mirror%20Download-fb7a24?style=for-the-badge&logo=sourceforge&logoColor=white" alt="SourceForge Mirror">
   </a>
 </p>
 
+<p align="center">
+  <a href="#-features">Features</a> •
+  <a href="#-how-to-use">Usage</a> •
+  <a href="#-preview">Preview</a> •
+  <a href="#-license">License</a>
+</p>
 
 ---
 
@@ -28,7 +37,7 @@ Provide a URL, select your format (MP3 / MP4), and download instantly! Supports 
 ## Table of Contents
 
 - 📋 [Features](#-features)
-- ❓ [How to Use (Installation)](#-how-to-use)
+- 🧩 [Installation & Usage)](#-how-to-use)
 - 📦 [Packaging Instructions](#-packaging-instructions)
 - ⚠️ [Warnings](#%EF%B8%8F-warnings)
 - 📷 [Preview](#-preview)
@@ -62,7 +71,7 @@ __TERMINATE__ - The terminate button kills the program, stopping the download if
 
 ## ❓ How to Use
 
-### Method 1: Downloading the Precompiled Executable (Application) via Installer
+### Method 1: Downloading the Program (Precompiled Executable) via Installer
 1. **Download via the Installer (RECOMMENDED)**  
    Visit the [Latest Release](https://github.com/Justagwas/UMD/releases/latest) and download `Universal_Media_Downloader_Setup.exe`,  
     or click the button below ↓.
@@ -73,16 +82,16 @@ __TERMINATE__ - The terminate button kills the program, stopping the download if
    Simply double-click the downloaded file to install the app.  
 
 4. **Usage**  
-  3.1 **Launch the APP**  
+  3.1. **Launch the Application**  
      Launch the newly downloaded application.
    
-    3.2 **Enter the URL**  
+    3.2. **Enter the URL**  
        Paste the online video URL into the input box.  
     
-    3.3 **Choose Format**  
+    3.3. **Choose Format**  
        Select your desired format.  
     
-    3.4 **Download**  
+    3.4. **Download**  
        Click on the **Download** button to start the process.
 
 Using the installer is essential as it automatically adds the application to the start menu, making it convenient to access at any time.
