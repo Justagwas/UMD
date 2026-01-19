@@ -221,13 +221,12 @@ Check out my [FAQ Page](https://www.justagwas.com/faq) for more answers and deta
 
 ## 🚧 TODO List
 
-### Version 1.3.0
+### Version 2.0.0
 
-- [x] Batch Download Mode.
-- [x] Custom Download Path.
-- [x] Existing File Check Toggle.
-- [x] Packaged for PR.
-- [x] Released.
+- [x] UI Rework.
+- [ ] Backend Rework.
+- [ ] Packaged for PR.
+- [ ] Released.
 
 ---
 
