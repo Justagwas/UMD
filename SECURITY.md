@@ -18,7 +18,7 @@ If you discover a security vulnerability in this repository, please **do not ope
 
 Instead, report it **privately** by contacting me directly:
 
-- **Email:** contact@justagwas.com
+- **Email:** email@justagwas.com
 
 Please include the following in your report (if possible):
 
