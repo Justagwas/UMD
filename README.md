@@ -221,12 +221,7 @@ Check out my [FAQ Page](https://www.justagwas.com/faq) for more answers and deta
 
 ## 🚧 TODO List
 
-### Version 2.0.0
-
-- [x] UI Rework.
-- [ ] Backend Rework.
-- [ ] Packaged for PR.
-- [ ] Released.
+### Discontinued.
 
 ---
 
