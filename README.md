@@ -1,3 +1,13 @@
+<h2 align="center">⚠️ NO LONGER MAINTAINED ⚠️</h2>
+
+<h1 align="center">Check out <a href="https://github.com/Justagwas/MediaCrate">MediaCrate</a> for the actively maintained version</h1>
+
+<br>
+<br>
+<br>
+<br>
+<br>
+
 <p align="center">
   <img src="https://raw.githubusercontent.com/Justagwas/UMD/refs/heads/master/UMD/icon.ico" width="128" alt="UMD Logo" />
 </p>
